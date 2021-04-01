@@ -1,0 +1,23 @@
+body {
+	animation: slidein ease 2500ms;
+	animation-iteration-count: 1;
+	animation-fill-mode : forwards;
+}
+
+@keyframes slidein {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.banner {
+    display: flex;
+    justify-content: center
+}
+
+.banner img {
+    width: 27rem;
+}

@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/doc-style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="content">
+
+        <nav>
+            <div class="logo"><a href="#"><img src="assets/Neutron.svg" alt=""></a></div>
+            <div>
+                <ul class="list-tag">
+                    <li><a href="/">Home</a> </li>
+                    <li><a href="https://twitter.com/harshitsaxena_">Twitter</a></li>
+                    <li><a href="https://github.com/harshitsaxena586">Github</a> </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="wrap">
+            <div class="links-wrap">
+                <div>
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js">
+                    </script>
+                    <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_5p8s20tk.json"
+                        background="transparent" speed="1" style="width: 200; height: 200;" loop autoplay>
+                    </lottie-player>
+                </div>
+                <ul class="list-stack">
+
+
+                    <li><a href="#" class="text-link">Introduction</a></li>
+                    <li><a href="#Alerts" class="text-link">Alerts</a></li>
+                    <li><a href="#Avatar" class="text-link">Avatar</a></li>
+                    <li><a href="#Buttons" class="text-link">Buttons</a></li>
+                    <li><a href="#Cards" class="text-link">Cards</a></li>
+                    <li><a href="#Lists" class="text-link">Lists</a></li>
+                    <li><a href="#Modal" class="text-link">Modal</a></li>
+                    <li><a href="#Input" class="text-link">Input</a></li>
+                    <li><a href="#Utilities" class="text-link">Utilities</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="" id="Introduction" class="d-flex">
+                    <h1 class="color-primary">
+                        Introduction
+                    </h1>
+                    <p class="paragraph-primary " id="ex">
+                        Neutron UI is
+                        is a Component Library made with a goal of saving time to
+                        develop
+                        apps spending less time on styling css and focus more on your app's functionality
+
+                        <br><br>
+                        You can simply add this Library by adding the given link in your HTML file
+                    </p>
+                    <div class="code-wrap ">
+                        <script src="https://gist.github.com/harshitsaxena586/335f863b23c57a7fbbe5ccf29d3992a2.js">
+                        </script>
+                    </div>
+                </div>
+
+                <div class="py-5 d-flex" id="Alerts">
+                    <div>
+                        <h1 class="color-primary">
+                            Alerts
+                        </h1>
+                        <p class="paragraph-primary">Alerts can be usefull for making the user aware of sudden change in
+                            the
+                            app like added the items in cart or the transaction failed
+                        </p>
+                        <div class="alert">
+                            This is default alert
+                            <a href="" class="close"></a>
+                        </div>
+                        <div class="alert-success shadow-light">
+                            This is a Success alert
+                            <a href="" class="close"></a>
+                        </div>
+                    </div>
+                    <div class="p-1 code-wrap">
+                        <script src="https://gist.github.com/harshitsaxena586/396663d764739e15895a4686bffbe620.js">
+                        </script>
+                    </div>
+                </div>
+                <!-- --avatar-- -->
+
+                <div id="Avatar" class="d-flex">
+                    <div>
+                        <h1 class="color-primary ">Avatar</h1>
+                        <p class="paragraph-primary">Alerts can be usefull for making the user aware of sudden change in
+                            the
+                            app like added the items in cart or the transaction failed
+                        </p>
+                        <div>
+                            <img src="https://pbs.twimg.com/profile_images/1349452676128358400/_3FFgJFI_400x400.jpg"
+                                alt="" class="avatar-lg mx-3">
+                            <img src="https://pbs.twimg.com/profile_images/1349452676128358400/_3FFgJFI_400x400.jpg"
+                                alt="" class="avatar mx-3">
+                            <img src="https://pbs.twimg.com/profile_images/1349452676128358400/_3FFgJFI_400x400.jpg"
+                                alt="" class="avatar-sm mx-3">
+                        </div>
+                    </div>
+                    <div class="desktop-margin"></div>
+                    <div class="p-1 code-wrap">
+                        <script src="https://gist.github.com/harshitsaxena586/653cd70604c71fad4da473907e856713.js">
+                        </script>
+                    </div>
+                </div>
+                <!-- buttons -->
+                <div id="Buttons" class="d-flex py-5">
+                    <div>
+                        <h1 class="color-primary ">Buttons</h1>
+                        <p class="paragraph-primary">Buttons ,Well a website Could'nt exist without buttons ,In this
+                            Library I
+                            Have tried to make them simple yet noticeable.
+                            <br><br>
+                            There are two kinds of buttons in this Library as you might have guessed
+                            <code>button-primary</code>
+                            and <code>button-secondary</code> also these classes can be applied to <code>anchor</code>
+                            tags aswell</p>
+                        <div class="py-2 ">
+                            <div class="d-flex py-1">
+                                <a href="#" class="button-primary ">Primary Button</a>
+                            </div>
+                            <div class="d-flex">
+                                <a href="#" class="button-secondary ">Secondary Button</a>
+                            </div>
+                        </div>
+                        <h4>buttons tags with class:</h4>
+
+                        <div class="py-2 ">
+                            <button class="button-primary">Primary Button</button>
+                            <button class="button-secondary">Secondary Button</button>
+                        </div>
+                    </div>
+                    <div class="desktop-margin"></div>
+                    <div class="code-wrap">
+                        <script src="https://gist.github.com/harshitsaxena586/568477f5b1ad0d6933489bdb71590c71.js">
+                        </script>
+
+                    </div>
+                </div>
+
+                <!-- cards -->
+                <div id="Cards" class="d-flex">
+                    <div>
+                        <h1 class="color-primary ">Cards</h1>
+                        <p class="paragraph-primary">Cards are a crucial design element to show data to users without
+                            scaring them with a homework to read large paragraphs
+                            <br><br>
+                            Currently we have three card options <code>card-h</code> for horizontally stacked content
+                            <code>card-v</code>for vertically arranged contenyt and <code>card-h-cx</code> which is a
+                            horizontal card with button top close it at the corner <code>anchor</code>
+                            tags aswell</p>
+                        <!-- demo -->
+                        <div class="p-1 d-flex">
+                            <div class="card-h">
+                                <img src="assets/vr.webp" alt="" class="shadow-light">
+                                <div class="card-text">
+                                    <h1>Hola lens 2</h1>
+                                    <p>Introduce new ways for your workforce to solve problems, design and review
+                                        spaces,
+                                        learn complex
+                                        processes, and help customers buy the right prdouct right where they are in the
+                                        field</p>
+                                </div>
+                            </div>
+                            <div class="px-4">
+                                <script
+                                    src="https://gist.github.com/harshitsaxena586/0a1a8329c22936c3661118cdf1dc408f.js">
+                                </script>
+                            </div>
+
+                        </div>
+                        <div class="p-1 d-flex">
+                            <div class="card-h-cx">
+                                <img src="assets/vr.webp" alt="" class="shadow-light">
+                                <div class="card-text">
+                                    <h1>Hola lens 2</h1>
+                                    <p>Introduce new ways for your workforce to solve problems, design and review
+                                        spaces,
+                                        learn complex
+                                        processes, and help customers buy the right prdouct right where they are in the
+                                        field</p>
+                                    <a href="" class="close"></a>
+                                </div>
+                            </div>
+                            <div class="px-4">
+                                <script
+                                    src="https://gist.github.com/harshitsaxena586/cdbd68973860ab1050489ac07043f8e1.js">
+                                </script>
+                            </div>
+
+                        </div>
+                        <div class="d-flex py-1">
+                            <div class="card-v">
+                                <img src="assets/vr.webp" alt="" class="shadow-light">
+                                <div class="card-text">
+                                    <h1>Hola lens 2</h1>
+                                    <p>Introduce new ways for your workforce to solve problems, design and review
+                                        spaces,
+                                        learn complex
+                                        processes, and help customers buy the right prdouct right where they are in the
+                                        field</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <script src="https://gist.github.com/harshitsaxena586/7a76a4385fe16827d052aff9b4f38c17.js">
+                            </script>
+                        </div>
+                    </div>
+                    <div class="code-wrap">
+
+                    </div>
+
+                </div>
+                <!-- lists -->
+                <div id="Lists" class="d-flex">
+                    <div>
+                        <h1 class="color-primary ">Lists</h1>
+                        <p class="paragraph-primary">This library consists of two kinds of lists-
+                            <code>list-stacked</code> and <code>list-tag</code>
+                            these can be used in multiple ways in your page ,could pass links,buttons or notifications
+                            as list items
+                        </p>
+                        <div>
+                            <h3>List stacked:</h3>
+                            <ul class="list-stack">
+                                <li>
+                                    <div class="alert shadow-light">You have 6 new messages</div>
+                                </li>
+                                <li>
+                                    <div class="alert shadow-light">Tanay pratap has started following you</div>
+                                </li>
+                                <li>
+                                    <div class="alert shadow-light">You have 6 new messages</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="py-1">
+                            <h3>List Tag:</h3>
+                            <ul class="list-tag">
+                                <li><a href=""> Batman</a></li>
+                                <li><a href=""> Iron man</a></li>
+                                <li><a href=""> Captain America</a></li>
+                                <li><a href=""> Spider Man</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="desktop-margin"></div>
+                    <div class="p-1 code-wrap">
+                        <script src="https://gist.github.com/harshitsaxena586/72f86e344a24a44f27be1622495536c0.js">
+                        </script>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div id="Modal" class="d-flex">
+                    <div>
+                        <h1 class="color-primary ">Modal</h1>
+                        <p class="paragraph-primary">Modal ,Ohh we all need them in tons of places from showing an
+                            awesome
+                            offer card on your E-commerce app to an Email collection form for a newsletter.
+                            <br> <br>
+                            In this library you can use modal boxes without any javascript all you need is
+                            <code>anchor</code> tag directed to the <code>id</code> of the respective box
+                            the box also has a close button by default to make sure that user gets back to the same
+                            place from where the box was triggered you can pass the id of initial <code>anchor</code>
+                        </p>
+                        <!-- demo starts here -->
+                        <div>
+                            <div id="modal-1" class="modal-box shadow-light">
+                                <div class="modal-content">
+                                    <div>
+                                        <h1> Hello ,This is a modal</h1>
+                                        <p>And this is how content looks like in modal Lorem ipsum </p>
+                                        <a href="#modal-trigger" class="close"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="py-1">
+                            <a href="#modal-1" class="button-primary" id="modal-trigger"> Click to open modal</a>
+                        </div>
+                    </div>
+                    <!-- ends here  -->
+                    <div class="desktop-margin"></div>
+                    <div class="p-1 code-wrap">
+                        <script src="https://gist.github.com/harshitsaxena586/2e5d803737d431bf7afe9a16e9820f09.js">
+                        </script>
+                        </script>
+                    </div>
+                </div>
+                <!-- Input -->
+                <div id="Input" class="d-flex">
+                    <div>
+                        <h1 class="color-primary ">Input</h1>
+                        <p class="paragraph-primary">We need to take a lot of text Inputs from users to offer a great
+                            user experience in return <br>
+                            You can get a beautifull input field by just adding <code>input-primary</code> class in
+                            input
+                            we Currently have two types of input fields <code>text</code> and <code>"search"</code> more
+                            comming soon :)
+                        </p>
+                        <div>
+                            <input type="text" class="input-primary" placeholder="Hello! type something here" name="/">
+                        </div>
+                        <div class="py-1">
+                            <input type="text" class="input-search shadow-light" placeholder="Search" name="search">
+                            <h4>the shadow here is a <a href="" class="text-link"> Utility </a>class ,can be removed or
+                                added anytime as per your design</h4>
+                        </div>
+                    </div>
+                    <div class="desktop-margin"></div>
+                    <div class="p-1 code-wrap">
+                        <script src="https://gist.github.com/harshitsaxena586/08ab1a304d6f3ef3177a359aada3ec97.js">
+                        </script>
+                        </script>
+                    </div>
+                </div>
+                <!-- utilities -->
+                <div id="Utilities" class="d-flex">
+                    <div>
+                        <h1 class="color-primary ">Utilities</h1>
+                        <p class="paragraph-primary">Although there are lot of components available in this library and
+                            will increasing in future
+                            there are certain situations where you just want to add a single or few specific properties
+                            to a vanilla div <br><br>
+                            keeping that in mind I have added a bunch of Utilities in this Library
+                            A detailed overview of them is given below.
+                        </p>
+                        <div>
+                            <ul class="list-tag">
+                                <div class="card-h m-2">
+                                    <div class="card-text">
+                                        <h1>Paragraph</h1>
+                                        <p>Add some styling to your paragraph using <code>paragraph-primary</code> this
+                                            changes font family to primary and size to 18px <a href="#ex"
+                                                class="link-text">example</a> the intro paragraph</a> </p>
+                                    </div>
+                                    <script
+                                        src="https://gist.github.com/harshitsaxena586/6ce0b07b6d2106f6be3e7cbacb11aa74.js">
+                                    </script>
+                                </div>
+
+                                <div class="card-h m-2">
+                                    <div class="card-text">
+                                        <h1>Text center</h1>
+                                        <p>As the name says it will add css property <code>textalign:center</code></p>
+                                    </div>
+                                    <script
+                                        src="https://gist.github.com/harshitsaxena586/96f26c90ba536d3ee033f39603d72e7c.js">
+                                    </script>
+                                </div>
+
+
+                                <div class="card-h m-2">
+                                    <div class="card-text">
+                                        <h1>Text Link</h1>
+                                        <p>Many times we want to make a piece of text as link but the raw anchor tag
+                                            ruins it
+                                            use this <code>text-link</code> class to instanlty make <a href="#"
+                                                class="text-link">example text</a> clickable
+                                            </code> </p>
+                                    </div>
+                                    <script
+                                        src="https://gist.github.com/harshitsaxena586/9734e4ba02fd709bdbb10a05ff984f36.js">
+                                    </script>
+                                </div>
+
+                                <div class="card-h m-2">
+                                    <div class="card-text">
+                                        <h1>Colors</h1>
+                                        <p>Who doesnt likes colors on a website ,well you can add them anywhere just by
+                                            css classes and the default pressets just add the color variable names class
+                                            or add bg before to make it background color</p>
+                                    </div>
+                                    <script
+                                        src="https://gist.github.com/harshitsaxena586/5493dda8aaaf802726cac195ac159646.js">
+                                    </script>
+                                </div>
+
+                                <div class="card-v m-2 extended">
+                                    <div class="card-text">
+                                        <h1>Flexbox</h1>
+                                        <p>Flexboxes are amazing for keeping the sites responsive and you will probably
+                                            need them a lot if making something
+                                            without our components ,we got you covered!. Just add the Css class
+                                            <code>d-flex</code> whenever you need one
+                                            <br><br>
+                                            there are multiple varients available for flex and adding flex properties
+                                            you probably are familiar with
+                                            <ul class="list-stack">
+                                                <li>d-flex : makes a normal flex</li>
+                                                <li>d-flex-v:adds a box with direction as row</li>
+                                                <li>justify-content-center:added with flex</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <script
+                                            src="https://gist.github.com/harshitsaxena586/9ac39ac8adb6aa070e1e436023484235.js">
+                                        </script>
+                                    </div>
+                                </div>
+
+                                <div class="card-v m-2 extended">
+                                    <div class="card-text">
+                                        <h1>Padding</h1>
+                                        <p>You can add paddings anywhere just by adding a css class: p, px or py these
+                                            specify paddings on both ,horizontal(x-axis) or vertical( y-axis)
+                                            respectively
+
+                                            <br><br>
+                                            Now these classes add padding equally on both or all sides the
+                                            used class, the magnitude of them can be declared by adding a value between
+                                            1-6 seperated by hyphen (-), the values 1-6 are in REM unit so a px-5 class
+                                            adds horizontal padding of 5rem from both sides</p>
+                                    </div>
+
+                                    <div class="">
+                                        <script
+                                            src="https://gist.github.com/harshitsaxena586/9c14ee44b1c6c6fce6f5bb3e9d82d013.js">
+                                        </script>
+
+                                    </div>
+                                </div>
+
+                                <div class="card-v m-2 extended">
+                                    <div class="card-text">
+                                        <h1>Margin</h1>
+                                        <p>You can add MArgings anywhere just like padding by adding a css class: m, mx
+                                            or my these
+                                            specify margins on both ,horizontal(x-axis) or vertical( y-axis)
+                                            respectively
+
+                                            <br><br>
+                                            Now these classes add margins equally on both or all sides the
+                                            used class, the magnitude of them can be declared by adding a value between
+                                            1-6 seperated by hyphen (-), the values 1-6 are in REM unit so a px-5 class
+                                            adds horizontal margins of 5rem from both sides</p>
+                                    </div>
+
+                                    <div class="">
+                                        <script
+                                            src="https://gist.github.com/harshitsaxena586/f29be11197a8b5251a30c513ae250744.js">
+                                        </script>
+                                    </div>
+                                </div>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+</body>
+
+</html>
