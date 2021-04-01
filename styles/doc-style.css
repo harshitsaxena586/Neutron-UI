@@ -63,3 +63,32 @@ h1 {
 .Cards {
     transition: all ease-in 600ms;
 }
+
+.mobile-alert {
+    display: none;
+
+}
+
+@media screen and (max-width:600px) {
+    .mobile-alert {
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        padding: 1rem;
+    }
+
+    .wrap {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+}
