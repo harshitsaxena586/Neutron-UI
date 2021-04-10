@@ -117,6 +117,7 @@
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    border: 2px solid var(--primary-color)
 }
 
 .button-primary:hover {
@@ -140,9 +141,8 @@
 }
 
 .button-secondary:hover {
-    transition: all ease-in-out 200ms;
-    padding: 1.12rem 2.14rem;
-    font-size: 1.12rem;
+    transition: all ease-in 200ms;
+    transform: scale(1.05);
 }
 
 .buttton-sticky {
@@ -176,7 +176,6 @@
 }
 
 .card-text h1 {
-    /* color: #1f1f1f; */
     color: var(--font-color);
     font-family: var(--secondary-font);
     font-weight: 700;
@@ -428,13 +427,14 @@ nav {
 }
 
 .logo img {
-    max-width:500px;
+    max-width: 500px;
 }
 
 .logo {
     padding-left: 2rem;
     cursor: pointer;
 }
+
 nav .text-link:hover {
     display: inline-block;
     transform: scale(1.1);
@@ -608,6 +608,7 @@ nav .text-link:hover {
 .d-flex {
     display: flex;
 }
+
 .d-flex-v {
     display: flex;
     flex-direction: row;
@@ -620,9 +621,11 @@ nav .text-link:hover {
 .justify-content-center {
     justify-content: center;
 }
-.align-content{
-   align-content: center; 
+
+.align-content {
+    align-content: center;
 }
+
 /* ---- */
 .text-link {
     text-decoration: none;

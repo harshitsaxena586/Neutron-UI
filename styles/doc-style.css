@@ -11,12 +11,19 @@
     position: fixed;
     left: 5rem;
     top: 1.5rem;
-
+    overflow-y: wrap;
 }
+
 
 .links-wrap li {
     padding: 1.5rem;
 
+}
+
+@media screen and (max-width:1300px) {
+    .links-wrap li {
+        padding: 1.2rem;
+    }
 }
 
 .links-wrap a:hover {
@@ -25,12 +32,13 @@
     transition: all ease-in 150ms;
 }
 
-.links-wrap a:active {}
+.links-wrap a:hover {
+    background-color: red;
+}
 
 
 .content {
     margin-left: 9.37rem;
-    /* background-color: green */
 }
 
 h1 {
@@ -42,7 +50,6 @@ h1 {
     width: 450px;
     padding-left: 1.5rem;
     margin-top: 2.4rem;
-
 }
 
 .desktop-margin {
